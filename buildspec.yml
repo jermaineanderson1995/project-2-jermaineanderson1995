@@ -7,4 +7,4 @@ phases:
             - mvn clean package 
 artifacts:
     files: 
-        - target/ERS.war
+        - target/WEB-INF.war
