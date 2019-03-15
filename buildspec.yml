@@ -9,6 +9,6 @@ phases:
             - mvn package
 artifacts:
     files: 
-        #- target/ERS.war
-        - target/ERS-0.0.1-SNAPSHOT.war
+        - target/ERS.war
+        #- target/ERS-0.0.1-SNAPSHOT.war
         #- '*'
