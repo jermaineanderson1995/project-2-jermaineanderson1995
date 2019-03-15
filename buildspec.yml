@@ -6,9 +6,8 @@ phases:
             - echo Welcome to the Pipeline
             - wget https://s3-us-west-1.amazonaws.com/mbc-bucket-dependencies-folder/ojdbc7.jar
             - mvn install:install-file -Dfile="ojdbc7.jar" -DgroupId="com.oracle" -DartifactId="ojdbc7" -Dversion="12.1.0" -Dpackaging="jar"
+            - echo $CODEBUILD_SRC_DIR
 artifacts:
-    #resource: 
-        #- "aws::s3::maven-repo-tutorial.asimio.net"
     files: 
-        #- target/ERS.war
-        - '*'
+        - target/ERS.war
+        #- '*'
