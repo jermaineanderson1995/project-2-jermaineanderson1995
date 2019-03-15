@@ -19,7 +19,7 @@ public class UserServiceTest {
     	//Existing User in TEST DB
     	testUser = new User("palagnajr","");
     	//Invalid credentials
-    	testLoginUser = new User("palagnajr","12345678");
+    	testLoginUser = new User("palagnajr","123456");
     }
     
     @After
