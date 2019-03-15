@@ -10,4 +10,5 @@ phases:
 artifacts:
     files: 
         #- target/ERS.war
-        - '*'
+        - /codebuild/output/src068558627/src
+        #- '*'
